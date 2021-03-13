@@ -1,0 +1,8 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.css';
+body {
+  position: fixed;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  background: black;
+  margin: 10px;
+}
