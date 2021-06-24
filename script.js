@@ -198,6 +198,7 @@ const main = async () => {
                 \x1b[0m
 Preparing python interpreter. Please wait...\n`);
   await languagePluginLoader;
+  pyodide.loadPackage('foolscript');
   pyodide.loadPackage('micropip');
   pyodide.loadPackage('numpy');
   pyodide.globals.print = (...arg) => {
